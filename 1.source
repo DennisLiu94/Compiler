@@ -1,0 +1,13 @@
+prog main (input , output)
+beginD
+a1,a2,sum:integer segD
+a3,a4:real segD 
+a5,a6:integer
+endD
+seg
+a1:=10 segS
+a2:=20 segS
+sum:=a1+a2 segS
+beginwhile
+while sum relop a1 and sum relop a2 do a1 := a1 + 1 segS a2 := a2 + 1
+endwhile
